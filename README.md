@@ -23,21 +23,21 @@ Discord provides an audit on every move action providing who did it as well as h
 
 This however creates issues where the bot is not sure if the user switching channels is the same as the one being moved. So this bot attempts to filter many scenarios that would prove whether or not they are the same event / action.
 
-#### Scenarios you could filter out (strikethrough means bot uses them):
+#### Scenarios you could filter out:
 
-- ~~Make sure the triggered event is actually a channel switch not a user joining or leaving the room.~~
+- [x] Make sure the triggered event is actually a channel switch not a user joining or leaving the room.
 
-- ~~Make sure the user being moved is not the same as the one switching.~~
+- [x] Make sure the user being moved is not the same as the one switching.
 
-- ~~Only work on audits not containing bots (optional; filters a whole lot of edge cases)~~
+- [x] Only work on audits not containing bots. *Optional, but filters a whole lot of edge cases.*
 
-- Match the time of the audit log move to the channel switch.
+- [ ] Match the time of the audit log move to the channel switch.
 
-- Match the amount of audit log moves to amount of channel switches.
+- [ ] Match the amount of audit log moves to amount of channel switches.
 
-- Confirm the channel switch to be to a room the mover has access to.
+- [ ] Confirm the channel switch to be to a room the mover has access to.
 
-- *Many more filters not mentioned...*
+*Many more filters not mentioned . . .*
 
 ## PR's and forks
 
