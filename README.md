@@ -41,6 +41,6 @@ This however creates issues where the bot is not sure if the user switching chan
 
 ## PR's and forks
 
-Feel free to create a pull request adding any of the suggested filters, or ones you created. And feel free to fork the repo if you think you can improve on it. Just credit the origin to my Github [@detrio1](https://github.com/detrio1).
+Feel free to create a pull request adding any of the suggested filters, or ones you created. And feel free to fork the repo if you think you can improve on it. Just credit the origin to my Github [@detrio1](https://github.com/alowain).
 
 Also, this bot needs a name.. Accepting suggestions.
